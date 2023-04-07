@@ -1,7 +1,8 @@
 # deep-learning-challenge
 
-Deep-learning Charity Evaluation Report
-Overview
+##Deep-learning Charity Evaluation Report
+
+###Overview
 Purpose of Analysis: To predict the success of a charity organization based on historic features of previous projects.
 
 Results
