@@ -1,26 +1,25 @@
 # deep-learning-challenge
 
-##Deep-learning Charity Evaluation Report
+## Deep-learning Charity Evaluation Report
 
-###Overview
+### Overview
 Purpose of Analysis: To predict the success of a charity organization based on historic features of previous projects.
 
-Results
-Data Preprocessing:
+### Results
+  - Data Preprocessing:
+      - Target Variables: 'IS_SUCCESSFUL' feature, which is a binary value that indicates whether the money was used effectively or not
 
-Target Variables: 'IS_SUCCESSFUL' feature, which is a binary value that indicates whether the money was used effectively or not
+      - Features: All remaining columns other than the target column and the 'EIN' and 'NAME' columnms. The columns are increased to 44 after one-hot encoding
 
-Features: All remaining columns other than the target column and the 'EIN' and 'NAME' columnms. The columns are increased to 44 after one-hot encoding
+      - Removed Columns: EIN and NAME, they are neither targets nor features.
 
-Removed Columns: EIN and NAME, they are neither targets nor features.
+  - Compiling, Training, and Evaluating the Model
 
-Compiling, Training, and Evaluating the Model
+      - First Model Description:
 
-First Model Description:
+        - Layers: 2
 
-Layers: 2
-
-Nodes: 16, 8
+        - Nodes: 16, 8
 
 epochs: 20
 
